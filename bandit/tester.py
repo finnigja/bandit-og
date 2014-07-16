@@ -13,12 +13,6 @@ class BanditTester():
         self.results = results
         self.last_result = None
 
-    # This should be a utility call available to tests
-    def _ast_args_to_str(self, args):
-        res = '\n\tArgument/s:\n\t\t%s' % '\n\t\t'.join([ast.dump(arg) for arg in args])
-        res = ''
-        return res
-
     def test_call(self, call, name=None):
         self.logger.debug("test_call (%s) executed with Call object: %s" % (name, ast.dump(call)))
         return False
