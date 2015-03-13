@@ -1,3 +1,18 @@
+PROJECT MOVED
+=============
+
+Bandit development started here, but has moved to the StackForge infrastructure provided by OpenStack.
+
+Please see https://wiki.openstack.org/wiki/Security/Projects/Bandit for more information and links to current source repositories.
+
+The content of this repository remains for historic reasons.
+
+PROJECT MOVED
+=============
+
+
+
+
 Bandit
 ======
 
